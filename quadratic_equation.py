@@ -30,9 +30,9 @@ if __name__ == '__main__':
     args = get_cmdline_args()
     solutions = get_roots(args.coef_a, args.coef_b, args.coef_c)
     if solutions[0] is None:
-        answer = "No real solution"
+        answer = 'No real solution'
     elif solutions[1] is None:
-        answer = "double root is {}".format(solutions[0])
+        answer = 'double root is {}'.format(solutions[0])
     else:
-        answer = "root1 is {0[0]}, root2 is {0[1]}".format(solutions)
+        answer = 'root1 is {0[0]}, root2 is {0[1]}'.format(solutions)
     print(answer)
