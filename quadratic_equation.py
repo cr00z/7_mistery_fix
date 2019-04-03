@@ -36,4 +36,3 @@ if __name__ == '__main__':
     else:
         answer = "root1 is {0[0]}, root2 is {0[1]}".format(solutions)
     print(answer)
-    print(get_roots(1, 2, 3))
